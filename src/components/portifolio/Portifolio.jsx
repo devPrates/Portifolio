@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../portifolio/portifolio.css"
+import "../portifolio/portifolio.css";
 
 const Portifolio = () => {
     const [ToggleState, setToggleState] = useState(1);
