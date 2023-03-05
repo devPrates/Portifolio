@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../portifolio/portifolio.css"
-import headerImg from "../../assets/img-placeholder.jfif";
 
 const Portifolio = () => {
     const [ToggleState, setToggleState] = useState(1);
