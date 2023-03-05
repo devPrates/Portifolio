@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+.project__container {
+    max-width: 768px;
+}
+
+.project__tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--mb-2);
+}
+
+.project__button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+    margin: 0 var(--mb-1);
+    cursor: pointer;
+}
+
+.project__button:hover{
+    color: rgb(89, 246, 246);
+}
+
+.project__icon {
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+.project__active {
+    color: rgb(89, 246, 246);
+}
+
+.project__sections {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    justify-content: center;
+}
+
+.project__content {
+    display: none;
+}
+
+.project__content-active {
+    display: block;
+}
+
+.project__data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+/*=================== card ===========================================================*/
+.card__container {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+  }
+  
+  body .card__container .card {
+    position: relative;
+    height: 480px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 30px;
+    transition: 0.5s;
+  }
+  
+  body .card__container .card .card__box .card__content a:nth-child(1) {
+    background: #2196f3;
+  }
+  
+  body .card__container .card .card__box .card__content a:nth-child(2) {
+    background: #e91e63;
+  }
+  
+  body .card__container .card .card__box .card__content a:nth-child(3) {
+    background: #23c186;
+  }
+  
+  body .card__container .card .card__box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #2a2b2f;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+  body .card__container .card .card__box:hover {
+    transform: translateY(-50px);
+  }
+  
+  body .card__container .card .card__box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.03);
+  }
+  
+  body .card__container .card .card__box .card__content {
+    text-align: center;
+  }
+  
+  body .card__container .card .card__box .card__content h2 {
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    font-size: 8rem;
+    color: rgba(255, 255, 255, 0.1);
+  }
+  
+  body .card__container .card .card__box .card__content h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    z-index: 1;
+    transition: 0.5s;
+    margin-bottom: 15px;
+    margin-top: 20%;
+  }
+  
+  body .card__container .card .card__box .card__content p {
+    font-size: 1rem;
+    margin: 0 30px;
+    text-align: justify;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    transition: 0.5s;
+  }
+  .buttons__card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body .card__container .card .card__box .card__content a {
+    position: relative;
+    padding: 5px;
+    width: 50%;
+    background: black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+  }
+  body .card__container .card .card__box .card__content a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    background: #fff;
+    color: #000;
+  }
+  
+/*================ modal ============================*/
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: var(--z-modal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.modal__content {
+    width: 500px;
+    position: relative;
+    background-color: var(--container-color);
+    padding: 4.5rem 2.5rem 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.modal__close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+
+.modal__title {
+    text-align: center;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1);
+}
+
+.modal__description {
+    font-size: var(--small-font-size);
+    padding: 0 3.5rem;
+    margin-bottom: var(--mb-2);
+    text-align: justify;
+}
+
+.modal__services {
+    row-gap: 0.75rem;
+}
+
+.modal__service {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.modal__icon {
+    color: var(--title-color);
+    font-size: 1.1rem;
+}
+
+.modal__info {
+    font-size: var(--small-font-size);
+}
+
+/* Active Modal */
+.active-modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*=============== BREAKPOINTS ===============
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .card__container {
+        grid-template-columns: repeat(2, 350px);
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 690px) {
+    .card__container {
+        grid-template-columns: repeat(1, 350px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+}
+
