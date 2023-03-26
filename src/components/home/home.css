@@ -17,12 +17,13 @@
 
 
 .home__social-icon{
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     color: var(--title-color);
 }
 
 .home__social-icon:hover {
     color: var(--title-color-dark);
+    transition: .4s;
 }
 
 .home__title {
@@ -57,6 +58,7 @@
 .home__description{
     max-width: 400px;
     margin-bottom: var(--mb-3);
+    text-align: justify;
 }
 .home__img{
     background: url(../../assets/profile03.png);

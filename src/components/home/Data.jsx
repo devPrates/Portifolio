@@ -55,11 +55,11 @@ const Data = () => {
         </svg>
         </h1>
         <h3 className="home__subtitle">FullStak Developer</h3>
-        <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Id minima necessitatibus, optio aperiam animi sapiente quam dicta officiis minus tempore impedit
-        aut neque nulla inventore corrupti atque dolorem quos hic?</p>
+        <p className="home__description">Olá! Sou um programador fullstack com experiência em desenvolvimento de software.
+        Tenho habilidades tanto no desenvolvimento front-end quanto no back-end. Minhas habilidades incluem o uso de linguagens
+         de programação como Java | Node.js | React e tenho um forte conhecimento em bancos de dados relacionais e não-relacionais</p>
 
-        <a href="#contact" className="button button--flex">Manda Salve
+        <a href="#contact" className="button button--flex">Mandar Mensagem
         <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"

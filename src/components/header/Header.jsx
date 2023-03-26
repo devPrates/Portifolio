@@ -24,42 +24,42 @@ const Header = () => {
                         <li className="nav__item">
                             <a href="#home" onClick={() => setActiveNav('#home')} 
                             className={activeNav === "#home" ? "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-estate nav__icon"></i> Home
+                                <i className="uil uil-estate nav__icon"></i> HOME
                             </a>
                         </li>
 
                         <li className="nav__item">
                             <a href="#sobre"  onClick={() => setActiveNav('#sobre')} 
                             className={activeNav === "#sobre" ? "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-user nav__icon"></i> Sobre
+                                <i className="uil uil-user nav__icon"></i> SOBRE
                             </a>
                         </li>
 
                         <li className="nav__item">
                             <a href="#skills"  onClick={() => setActiveNav('#skills')} 
                             className={activeNav === "#skills" ? "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-file-alt nav__icon"></i> Skills
+                                <i className="uil uil-file-alt nav__icon"></i> SKILLS
                             </a>
                         </li>
 
                         <li className="nav__item">
                             <a href="#formacao"  onClick={() => setActiveNav('#formacao')} 
                             className={activeNav === "#formacao" ? "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-briefcase nav__icon"></i> Formação
+                                <i className="uil uil-briefcase nav__icon"></i> FORMAÇÃO
                             </a>
                         </li>
 
                         <li className="nav__item">
-                            <a href="#portifolio"  onClick={() => setActiveNav('#portifolio')} 
-                            className={activeNav === "#portifolio" ? "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-scenery nav__icon"></i> Portifolio
+                            <a href="#project"  onClick={() => setActiveNav('#project')} 
+                            className={activeNav === "#project" ? "nav__link active-link" : "nav__link"}>
+                                <i className="uil uil-scenery nav__icon"></i> PORTIFÓLIO
                             </a>
                         </li>
 
                         <li className="nav__item">
                             <a href="#contato"  onClick={() => setActiveNav('#contato')} 
                             className={activeNav === "#contato" ? "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-message nav__icon"></i> Contato
+                                <i className="uil uil-message nav__icon"></i> CONTATO
                             </a>
                         </li>
                     </ul> 
