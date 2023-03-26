@@ -59,7 +59,7 @@ const Data = () => {
         Tenho habilidades tanto no desenvolvimento front-end quanto no back-end. Minhas habilidades incluem o uso de linguagens
          de programação como Java | Node.js | React e tenho um forte conhecimento em bancos de dados relacionais e não-relacionais</p>
 
-        <a href="#contact" className="button button--flex">Mandar Mensagem
+        <a href="#contato" className="button button--flex">Mandar Mensagem
         <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"

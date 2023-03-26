@@ -6,8 +6,8 @@ const Info = () => {
             <div className="about__box">
                 <i className="bx bx-award about__icon"></i>
 
-                <h3 className="about__title">Experiencia</h3>
-                <span className="about__subtitle">5 Meses de Estagio</span>
+                <h3 className="about__title">Experiencia programação</h3>
+                <span className="about__subtitle">3 Meses de Estágio</span>
             </div>
 
             <div className="about__box">
@@ -18,10 +18,10 @@ const Info = () => {
             </div>
 
             <div className="about__box">
-                <i className="bx bx-support about__icon"></i>
+                <i className="bx bx-code-block about__icon"></i>
 
-                <h3 className="about__title">Suport</h3>
-                <span className="about__subtitle">Online</span>
+                <h3 className="about__title">Maratonas de Programação</h3>
+                <span className="about__subtitle">3 participações</span>
             </div>
         </div>
     )

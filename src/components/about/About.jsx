@@ -16,10 +16,7 @@ const About = () => {
                 <div className="about__data">
                     <Info />
 
-                    <p className="about__description">Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Dolorem dolore voluptates accusamus doloremque porro totam
-                    impedit vel quibusdam iusto dolores molestiae libero doloribus obcaecati rem
-                    temporibus ullam, magni dignissimos eum.</p>
+                    <p className="about__description">Eu sou um programador altamente motivado e dedicado com experiência em diversas linguagens de programação, bem como uma compreensão sólida de desenvolvimento orientado a objetos e princípios de design de software. Além disso, possuo habilidades em trabalhar em equipe, comunicação efetiva e solução de problemas complexos. Sou organizado, capaz de gerenciar várias tarefas e estou sempre buscando aprender novas tecnologias e habilidades para melhorar meu conjunto de habilidades!</p>
 
                     <a download="" href={CV} className="button button--flex">Baixar Curriculo
                     <svg
