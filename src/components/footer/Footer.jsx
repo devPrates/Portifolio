@@ -13,7 +13,7 @@ const Footer = () => {
                     </li>
 
                     <li>
-                        <a href="#portifolio" className="footer__link">Portifolio</a>
+                        <a href="#project" className="footer__link">Portifolio</a>
                     </li>
 
                     <li>
@@ -22,15 +22,15 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://www.instagram.com/" className="footer__social-link" target="_blank">
+                    <a href="https://www.instagram.com/gprates404" className="footer__social-link" target="_blank">
                         <i className="bx bxl-instagram"></i>
                     </a>
 
-                    <a href="https://www.github.com/" className="footer__social-link" target="_blank">
+                    <a href="https://www.github.com/devPrates" className="footer__social-link" target="_blank">
                         <i className="bx bxl-github"></i>
                     </a>
 
-                    <a href="https://www.linkedin.com/" className="footer__social-link" target="_blank">
+                    <a href="https://www.linkedin.com/in/devPrates" className="footer__social-link" target="_blank">
                         <i className="bx bxl-linkedin"></i>
                     </a>
                 </div>

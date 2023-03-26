@@ -19,7 +19,7 @@
 }
 
 .project__button:hover{
-    color: rgb(89, 246, 246);
+    color: #b1dae7;
 }
 
 .project__icon {
@@ -28,7 +28,15 @@
 }
 
 .project__active {
-    color: rgb(89, 246, 246);
+    color: #b1dae7;
+}
+
+.bx-grid-alt {
+  font-size: 25px;
+}
+
+.bx-code-curly {
+  font-size: 25px;
 }
 
 .project__sections {
@@ -405,8 +413,8 @@ padding: 15px;
 
 /*================ Card 03 ============================*/
 .back__container {
-  width: 230px;
-  height: 194px;
+  width: 260px;
+  height: 250px;
 }
 
 .terminal_toolbar {

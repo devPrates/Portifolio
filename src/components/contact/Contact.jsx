@@ -26,7 +26,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">user@gmail.com</span>
 
-                            <a href="#" className="contact__button">Me chame{" "}
+                            <a href="mailto:devprates@gmail.com" className="contact__button" target="_blank">Me chame{" "}
                              <i className="bx bx-right-arrow-alt contact__button-icon">
                             </i></a>
                         </div>
@@ -37,7 +37,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">(67) 99177-6488</span>
 
-                            <a href="#" className="contact__button">Me chame
+                            <a href="https://wa.me/+5567991776488" className="contact__button" target="_blank">Me chame
                              <i className="bx bx-right-arrow-alt contact__button-icon">
                             </i></a>
                         </div>
@@ -48,7 +48,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">LinkedIN</h3>
                             <span className="contact__card-data">GabrielPrates</span>
 
-                            <a href="#" className="contact__button">Me chame
+                            <a href="https://www.linkedin.com/in/devPrates" className="contact__button" target="_blank">Me chame
                              <i className="bx bx-right-arrow-alt contact__button-icon">
                             </i></a>
                         </div>

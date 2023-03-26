@@ -32,7 +32,7 @@ const Project = () => {
 
                     <div className={ToggleState === 3 ? "project__button project__active button--flex"
                         : "project__button button--flex"} onClick={() => toggleTab(3)}>
-                        <i className="bx bx-code-curly project__icon"></i> Backend
+                        <i className="bx bx-code-block project__icon"></i> Backend
                     </div>
                 </div>
 
