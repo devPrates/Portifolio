@@ -22,7 +22,7 @@ const Qualification = () =>{
 
                     <div className={ToggleState === 2 ? "qualification__button qualification__active button--flex" 
                     : "qualification__button button--flex"} onClick={() => toggleTab(2)}>
-                        <i className="uil uil-briefcase-alt qualification__icon"></i> Experiencia
+                        <i className="uil uil-briefcase-alt qualification__icon"></i> Cursos
                     </div>
                 </div>
                 <div className="qualification__sections">
@@ -62,6 +62,23 @@ const Qualification = () =>{
 
                     <div  className={ToggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
                         <div className="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification__title">Spring Boot</h3>
+                                <span className="qualification__subtitle">IFMS</span>
+                                <div className="qualification__calender">
+                                    <i className="uil uil-calendar-alt"></i> Mar - 2023
+                                </div>  
+                            </div>
+                        </div>
+                        
+                        <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Auxiliar Adm</h3>
                                 <span className="qualification__subtitle">GINE-EAD</span>
@@ -95,7 +112,7 @@ const Qualification = () =>{
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Operador de computador</h3>
+                                <h3 className="qualification__title">Montagem e Manutenção de Computadores</h3>
                                 <span className="qualification__subtitle">GINE-EAD</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> Jun - 2022
