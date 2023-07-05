@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/profile03.png";
+import AboutImg from "../../assets/foto-about.jpg";
 import CV from "../../assets/cv-prates.pdf"
 import Info from "./Info";
 
@@ -16,7 +16,7 @@ const About = () => {
                 <div className="about__data">
                     <Info />
 
-                    <p className="about__description">Eu sou um programador altamente motivado e dedicado com experiência em diversas linguagens de programação, bem como uma compreensão sólida de desenvolvimento orientado a objetos e princípios de design de software. Além disso, possuo habilidades em trabalhar em equipe, comunicação efetiva e solução de problemas complexos. Sou organizado, capaz de gerenciar várias tarefas e estou sempre buscando aprender novas tecnologias e habilidades para melhorar meu conjunto de habilidades!</p>
+                    <p className="about__description">Sou um programador altamente motivado e dedicado com experiência em diversas linguagens de programação, bem como uma compreensão sólida de desenvolvimento orientado a objetos e princípios de design de software. Além disso, possuo habilidades em trabalhar em equipe, comunicação efetiva e solução de problemas complexos. Sou organizado, capaz de gerenciar várias tarefas e estou sempre buscando aprender novas tecnologias e habilidades para melhorar meu conjunto de habilidades!</p>
 
                     <a download="" href={CV} className="button button--flex">Baixar Curriculo
                     <svg

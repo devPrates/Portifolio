@@ -83,6 +83,11 @@
   border-radius: 6px 6px 0 0;
 }
 
+.card-image img {
+  height: 150px;
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+}
 .card-image:hover {
   transform: scale(0.98);
 }

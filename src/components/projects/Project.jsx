@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./project.css"
-import ui01 from "../../assets/Banner.png";
+import ui01 from "../../assets/fig-01.png";
+import ui02 from "../../assets/fig-02.png";
+import ui03 from "../../assets/fig-03.png";
 
 const Project = () => {
     const [ToggleState, setToggleState] = useState(1);
@@ -39,10 +41,11 @@ const Project = () => {
                 <div className="project__sections">
                     <div className={ToggleState === 1 ? "project__content card__container project__content-active" : "project__content"}>    
                         <div class="card">
-                            <div class="card-image"></div>
+                            <div class="card-image">
+                                <img src={ui01} alt=""  /></div>
                             <div class="category"> Figma </div>
-                            <div class="heading"> <p>Desing Software Garçon Virtual</p>
-                            <a href="#"><button class="cta">
+                            <div class="heading"> <p>Desing Empresa Puro Quejo</p>
+                            <a href="https://www.figma.com/file/vQ7CHSAw71JU6sPjCp8EAj/Landing-Page-Puro-Queijo?type=design&node-id=0%3A1&mode=design&t=HB8juKXneGL7YbFg-1" target="_blanck"><button class="cta">
                                 <span>Ver Mais</span>
                                 <svg viewBox="0 0 13 10" height="10px" width="15px">
                                     <path d="M1,5 L11,5"></path>
@@ -50,15 +53,17 @@ const Project = () => {
                                 </svg>
                             </button></a>
 
-                            <div class="author"> By <span class="name">devPrates</span> 15/02/23</div>
+                            <div class="author"> By <span class="name">devPrates</span> 29/06/23</div>
                             </div>
                         </div>
 
                         <div class="card">
-                            <div class="card-image"></div>
+                            <div class="card-image">
+                                <img src={ui02} alt=""  />
+                            </div>
                             <div class="category"> Figma </div>
-                            <div class="heading"> <p>Desing site Magic Gathering</p>
-                            <a href="#"><button class="cta">
+                            <div class="heading"> <p>Desing Garçom Virtual</p>
+                            <a href="https://www.figma.com/file/Igcj3YU5OIcQH8c4EH7nM4/Gar%C3%A7om-Virtual?type=design&node-id=0%3A1&mode=design&t=HB8juKXneGL7YbFg-1" target="_blanck"><button class="cta">
                                 <span>Ver Mais</span>
                                 <svg viewBox="0 0 13 10" height="10px" width="15px">
                                     <path d="M1,5 L11,5"></path>
@@ -71,10 +76,12 @@ const Project = () => {
                         </div>
 
                         <div class="card">
-                            <div class="card-image"></div>
+                            <div class="card-image">
+                            <img src={ui03} alt="" />
+                            </div>
                             <div class="category"> Figma </div>
-                            <div class="heading"> <p>Desing landing page JBL</p>
-                            <a href="#"><button class="cta">
+                            <div class="heading"> <p>Desing landing Pokedex</p>
+                            <a href="https://www.figma.com/file/nR0CgjInSCVi94xO7kKCwp/Projeto-POK%C3%89DEX?type=design&node-id=2%3A2&mode=design&t=HB8juKXneGL7YbFg-1" target="_blanck"><button class="cta">
                                 <span>Ver Mais</span>
                                 <svg viewBox="0 0 13 10" height="10px" width="15px">
                                     <path d="M1,5 L11,5"></path>
@@ -82,7 +89,7 @@ const Project = () => {
                                 </svg>
                             </button></a>
 
-                            <div class="author"> By <span class="name">devPrates</span> 22/03/23</div>
+                            <div class="author"> By <span class="name">devPrates</span> 22/06/23</div>
                             </div>
                         </div>
                             

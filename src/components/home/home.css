@@ -55,6 +55,11 @@
     top: 1rem;
 }
 
+.button-flex{
+    display: flex;
+    align-items: center;
+}
+
 .home__description{
     max-width: 400px;
     margin-bottom: var(--mb-3);
@@ -88,7 +93,8 @@
 }
 
 .home__scroll {
-    margin-left: 9.25rem;
+    display: flex;
+    justify-content: center;
 }
 
 .wheel {
