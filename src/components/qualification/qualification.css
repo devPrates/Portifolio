@@ -79,6 +79,10 @@
     background-color: var(--text-color);
     transform: translate(6px, -7px);
 }
+.qualification__link {
+    color: var(--text-color);
+    text-decoration: underline;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
