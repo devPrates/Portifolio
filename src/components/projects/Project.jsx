@@ -1,5 +1,4 @@
 import post from "./post.json"
-import Post from "./Post"
 import "./project.css"
 import imagem from "../../assets/card.png"
 import React, { useState } from 'react';
