@@ -19,6 +19,13 @@
         "Data":"IFMS - 23 de Novembro de 2023",
         "Descricao": "É com grande satisfação que relembramos o sucesso do recente Mini Curso de React realizado no Instituto Federal de Mato Grosso do Sul (IFMS). Durante um período emocionante de [data de início] a [data de término], entusiastas de todo o espectro da programação se reuniram para explorar as nuances do React e expandir suas habilidades no desenvolvimento de interfaces de usuário modernas. O curso, ministrado por especialistas em React, ofereceu uma jornada envolvente desde os fundamentos básicos até técnicas avançadas. A seguir, revisitamos alguns dos pontos altos que cativaram os participantes:",
         "imagem": "card.png"
+    },
+    {
+        "id": 4,
+        "Titulo": "Ebertura da Empresa Junior",
+        "Data":"IFMS - 02 de Junho de 2023",
+        "Descricao": "É com grande satisfação que relembramos o sucesso do recente Mini Curso de React realizado no Instituto Federal de Mato Grosso do Sul (IFMS). Durante um período emocionante de [data de início] a [data de término], entusiastas de todo o espectro da programação se reuniram para explorar as nuances do React e expandir suas habilidades no desenvolvimento de interfaces de usuário modernas. O curso, ministrado por especialistas em React, ofereceu uma jornada envolvente desde os fundamentos básicos até técnicas avançadas. A seguir, revisitamos alguns dos pontos altos que cativaram os participantes:",
+        "imagem": "card.png"
     }
 
 ]
