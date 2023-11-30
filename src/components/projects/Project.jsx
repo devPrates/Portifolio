@@ -1,7 +1,5 @@
 import post from "./post.json"
 import "./project.css"
-import imagem from "../../assets/card.png"
-import React, { useState } from 'react';
 
 const Project = () => {
 
@@ -14,18 +12,20 @@ const Project = () => {
                 {post.map((item) => (
                     <section className="post__card" key={item.id}>
                         <div className="post_imagem">
+                            
                             <img src={`../src/assets/${item.imagem}`} alt="" />
                         </div>
                         <div className="post_content">
                             <div>
                                 <h1 className="post_content-titulo">{item.Titulo}</h1>
-
+                                <span className="post_content-subtitle">{item.Data}</span>
                             </div>
                             <div className="post_content-description">
                                 <p>{item.Descricao}</p>
                             </div>
-                            <div className="post_content-data">
-                                <span className="post_content-subtitle">{item.Data}</span>
+                            <div className="post_botoes">
+                                <a className="post_botoes-item" href="#">Ver Mais</a>
+                                <a className="post_botoes-item" href="#">Github</a>
                             </div>
                         </div>
                     </section>
